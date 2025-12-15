@@ -1,6 +1,6 @@
-# LightRAG
+# RAG
 
-**LightRAG** is a lightweight, fast Retrieval-Augmented Generation (RAG) toolkit and API with a bundled web UI. It provides components to ingest documents, build vector indices and knowledge graphs, and query them using an LLM-backed pipeline.
+**RAG** is a lightweight, fast Retrieval-Augmented Generation (RAG) toolkit and API with a bundled web UI. It provides components to ingest documents, build vector indices and knowledge graphs, and query them using an LLM-backed pipeline.
 
 [![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/pky1987/RAG)
 [![API Version](https://img.shields.io/badge/API-0260-green.svg)](https://github.com/pky1987/RAG)
