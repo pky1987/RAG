@@ -1,0 +1,441 @@
+{
+  "settings": {
+    "language": "Idioma",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "header": {
+    "documents": "Documentos",
+    "knowledgeGraph": "Gráfico de Conocimiento",
+    "retrieval": "Recuperación",
+    "api": "API",
+    "projectRepository": "Repositorio de Proyecto",
+    "logout": "Cerrar sesión",
+    "frontendNeedsRebuild": "El frontend necesita ser reconstruido",
+    "themeToggle": {
+      "switchToLight": "Cambiar a tema claro",
+      "switchToDark": "Cambiar a tema oscuro"
+    }
+  },
+  "login": {
+    "description": "Por favor, ingrese su cuenta y contraseña para acceder al sistema",
+    "username": "Nombre de usuario",
+    "usernamePlaceholder": "Por favor ingrese un nombre de usuario",
+    "password": "Contraseña",
+    "passwordPlaceholder": "Por favor ingrese una contraseña",
+    "loginButton": "Iniciar sesión",
+    "loggingIn": "Iniciando sesión...",
+    "successMessage": "Inicio de sesión exitoso",
+    "errorEmptyFields": "Por favor ingrese su nombre de usuario y contraseña",
+    "errorInvalidCredentials": "Fallo en el inicio de sesión, por favor verifique su nombre de usuario y contraseña",
+    "authDisabled": "Autenticación deshabilitada. Usando modo libre de inicio de sesión.",
+    "guestMode": "Modo libre de inicio de sesión"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "saving": "Guardando...",
+    "saveFailed": "Falló al guardar"
+  },
+  "documentPanel": {
+    "clearDocuments": {
+      "button": "Borrar",
+      "tooltip": "Borrar documentos",
+      "title": "Borrar Documentos",
+      "description": "Esto eliminará todos los documentos del sistema",
+      "warning": "¡ADVERTENCIA: Esta acción eliminará permanentemente todos los documentos y no podrá deshacerse!",
+      "confirm": "¿Realmente desea borrar todos los documentos?",
+      "confirmPrompt": "Escriba 'sí' para confirmar esta acción",
+      "confirmPlaceholder": "Escriba sí para confirmar",
+      "clearCache": "Borrar caché LLM",
+      "confirmButton": "SÍ",
+      "clearing": "Borrando...",
+      "timeout": "El tiempo de espera para la operación de borrado ha expirado, por favor intente de nuevo",
+      "success": "Documentos borrados exitosamente",
+      "cacheCleared": "Caché borrada exitosamente",
+      "cacheClearFailed": "No se pudo borrar la caché:\n{{error}}",
+      "failed": "Falló al borrar documentos:\n{{message}}",
+      "error": "Falló al borrar documentos:\n{{error}}"
+    },
+    "deleteDocuments": {
+      "button": "Eliminar",
+      "tooltip": "Eliminar documentos seleccionados",
+      "title": "Eliminar Documentos",
+      "description": "Esto eliminará permanentemente los documentos seleccionados del sistema",
+      "warning": "¡ADVERTENCIA: Esta acción eliminará permanentemente los documentos seleccionados y no podrá deshacerse!",
+      "confirm": "¿Realmente desea eliminar {{count}} documento(s) seleccionado(s)?",
+      "confirmPrompt": "Escriba 'sí' para confirmar esta acción",
+      "confirmPlaceholder": "Escriba sí para confirmar",
+      "confirmButton": "SÍ",
+      "deleteFileOption": "Eliminar también los archivos cargados",
+      "deleteFileTooltip": "Marque esta opción para eliminar también los archivos correspondientes en el servidor",
+      "deleteLLMCacheOption": "Eliminar también la caché LLM extraída",
+      "success": "La eliminación de documentos comenzó correctamente",
+      "failed": "Falló al eliminar documentos:\n{{message}}",
+      "error": "Falló al eliminar documentos:\n{{error}}",
+      "busy": "El sistema está ocupado, por favor intente más tarde",
+      "notAllowed": "No tiene permiso para realizar esta operación"
+    },
+    "selectDocuments": {
+      "selectCurrentPage": "Seleccionar página actual ({{count}})",
+      "deselectAll": "Deseleccionar todo ({{count}})"
+    },
+    "uploadDocuments": {
+      "button": "Subir",
+      "tooltip": "Subir documentos",
+      "title": "Subir Documentos",
+      "description": "Arrastra y suelta tus documentos aquí o haz clic para explorar.",
+      "single": {
+        "uploading": "Subiendo {{name}}: {{percent}}%",
+        "success": "Subida exitosa:\n{{name}} subido exitosamente",
+        "failed": "Subida fallida:\n{{name}}\n{{message}}",
+        "error": "Subida fallida:\n{{name}}\n{{error}}"
+      },
+      "batch": {
+        "uploading": "Subiendo archivos...",
+        "success": "Archivos subidos exitosamente",
+        "error": "Algunos archivos no pudieron ser subidos"
+      },
+      "generalError": "Subida fallida\n{{error}}",
+      "fileTypes": "Tipos admitidos: TXT, MD, DOCX, PDF, PPTX, XLSX, RTF, ODT, EPUB, HTML, HTM, TEX, JSON, XML, YAML, YML, CSV, LOG, CONF, INI, PROPERTIES, SQL, BAT, SH, C, CPP, PY, JAVA, JS, TS, SWIFT, GO, RB, PHP, CSS, SCSS, LESS",
+      "fileUploader": {
+        "singleFileLimit": "No se puede subir más de 1 archivo a la vez",
+        "maxFilesLimit": "No se puede subir más de {{count}} archivos",
+        "fileRejected": "El archivo {{name}} fue rechazado",
+        "unsupportedType": "Tipo de archivo no compatible",
+        "fileTooLarge": "Archivo demasiado grande, el tamaño máximo es {{maxSize}}",
+        "dropHere": "Deja los archivos aquí",
+        "dragAndDrop": "Arrastra y suelta los archivos aquí, o haz clic para seleccionar archivos",
+        "removeFile": "Eliminar archivo",
+        "uploadDescription": "Puedes subir {{isMultiple ? 'múltiples' : count}} archivos (hasta {{maxSize}} cada uno)",
+        "duplicateFile": "El nombre del archivo ya existe en la caché del servidor"
+      }
+    },
+    "documentManager": {
+      "title": "Gestión de Documentos",
+      "scanButton": "Escanear/Reintentar",
+      "scanTooltip": "Escanear y procesar documentos en la carpeta de entrada, y también reprocesar todos los documentos fallidos",
+      "refreshTooltip": "Restablecer lista de documentos",
+      "pipelineStatusButton": "Estado del Pipeline",
+      "pipelineStatusTooltip": "Ver el estado del procesamiento de documentos en el pipeline",
+      "uploadedTitle": "Documentos Subidos",
+      "uploadedDescription": "Lista de documentos subidos y sus estados.",
+      "emptyTitle": "Sin Documentos",
+      "emptyDescription": "Aún no se han subido documentos.",
+      "columns": {
+        "id": "ID",
+        "fileName": "Nombre de archivo",
+        "summary": "Resumen",
+        "status": "Estado",
+        "length": "Longitud",
+        "chunks": "Fragmentos",
+        "created": "Creado",
+        "updated": "Actualizado",
+        "metadata": "Metadatos",
+        "select": "Seleccionar"
+      },
+      "status": {
+        "all": "Todos",
+        "completed": "Completado",
+        "preprocessed": "Preprocesado",
+        "processing": "Procesando",
+        "pending": "Pendiente",
+        "failed": "Fallido"
+      },
+      "errors": {
+        "loadFailed": "No se pudieron cargar los documentos\n{{error}}",
+        "scanFailed": "No se pudieron escanear los documentos\n{{error}}",
+        "scanProgressFailed": "No se pudo obtener el progreso del escaneo\n{{error}}"
+      },
+      "fileNameLabel": "Nombre de archivo",
+      "showButton": "Mostrar",
+      "hideButton": "Ocultar",
+      "showFileNameTooltip": "Mostrar nombre del archivo",
+      "hideFileNameTooltip": "Ocultar nombre del archivo"
+    }
+  },
+  "graphPanel": {
+    "dataIsTruncated": "Los datos del gráfico están truncados a los nodos máximos",
+    "statusDialog": {
+      "title": "Configuraciones del Servidor LightRAG",
+      "description": "Ver el estado actual del sistema e información de conexión"
+    },
+    "legend": "Leyenda",
+    "nodeTypes": {
+      "person": "Persona",
+      "category": "Categoría",
+      "geo": "Geográfico",
+      "location": "Ubicación",
+      "organization": "Organización",
+      "event": "Evento",
+      "equipment": "Equipo",
+      "weapon": "Arma",
+      "animal": "Animal",
+      "unknown": "Desconocido",
+      "object": "Objeto",
+      "group": "Grupo",
+      "technology": "Tecnología",
+      "product": "Producto",
+      "document": "Documento",
+      "content": "Contenido",
+      "data": "Datos",
+      "artifact": "Artefacto",
+      "concept": "Concepto",
+      "naturalobject": "Objeto Natural",
+      "method": "Método",
+      "creature": "Criatura",
+      "plant": "Planta",
+      "disease": "Enfermedad",
+      "drug": "Droga",
+      "food": "Comida",
+      "other": "Otro"
+    },
+    "sideBar": {
+      "settings": {
+        "settings": "Configuraciones",
+        "healthCheck": "Chequeo de salud",
+        "showPropertyPanel": "Mostrar panel de propiedades",
+        "showSearchBar": "Mostrar barra de búsqueda",
+        "showNodeLabel": "Mostrar etiqueta de nodo",
+        "nodeDraggable": "Nodo arrastrable",
+        "showEdgeLabel": "Mostrar etiqueta de arista",
+        "hideUnselectedEdges": "Ocultar aristas no seleccionadas",
+        "edgeEvents": "Eventos de arista",
+        "maxQueryDepth": "Profundidad máxima de consulta",
+        "maxNodes": "Nodos máximos",
+        "maxLayoutIterations": "Iteraciones máximas de diseño",
+        "resetToDefault": "Restablecer a predeterminado",
+        "edgeSizeRange": "Rango de tamaño de arista",
+        "depth": "Profundidad",
+        "max": "Máx",
+        "degree": "Grado",
+        "apiKey": "Clave API",
+        "enterYourAPIkey": "Ingrese su clave API",
+        "save": "Guardar",
+        "refreshLayout": "Actualizar diseño"
+      },
+      "zoomControl": {
+        "zoomIn": "Acercar",
+        "zoomOut": "Alejar",
+        "resetZoom": "Restablecer zoom",
+        "rotateCamera": "Rotar en sentido horario",
+        "rotateCameraCounterClockwise": "Rotar en sentido antihorario"
+      },
+      "layoutsControl": {
+        "startAnimation": "Continuar animación de diseño",
+        "stopAnimation": "Detener animación de diseño",
+        "layoutGraph": "Diseñar gráfico",
+        "layouts": {
+          "Circular": "Circular",
+          "Circlepack": "Circlepack",
+          "Random": "Aleatorio",
+          "Noverlaps": "Sin solapamientos",
+          "Force Directed": "Dirigido por fuerza",
+          "Force Atlas": "Force Atlas"
+        }
+      },
+      "fullScreenControl": {
+        "fullScreen": "Pantalla completa",
+        "windowed": "Ventana"
+      },
+      "legendControl": {
+        "toggleLegend": "Alternar leyenda"
+      }
+    },
+    "statusIndicator": {
+      "connected": "Conectado",
+      "disconnected": "Desconectado"
+    },
+    "statusCard": {
+      "unavailable": "Información de estado no disponible",
+      "serverInfo": "Información del servidor",
+      "workingDirectory": "Directorio de trabajo",
+      "inputDirectory": "Directorio de entrada",
+      "maxParallelInsert": "Procesamiento concurrente de documentos",
+      "summarySettings": "Configuraciones de resumen",
+      "llmConfig": "Configuración LLM",
+      "llmBinding": "Vinculación LLM",
+      "llmBindingHost": "Host de LLM",
+      "llmModel": "Modelo LLM",
+      "embeddingConfig": "Configuración de incrustación",
+      "embeddingBinding": "Vinculación de incrustación",
+      "embeddingBindingHost": "Host de incrustación",
+      "embeddingModel": "Modelo de incrustación",
+      "storageConfig": "Configuración de almacenamiento",
+      "kvStorage": "Almacenamiento KV",
+      "docStatusStorage": "Almacenamiento de estado de documentos",
+      "graphStorage": "Almacenamiento de gráficos",
+      "vectorStorage": "Almacenamiento de vectores",
+      "workspace": "Espacio de trabajo",
+      "maxGraphNodes": "Nodos máximos del gráfico",
+      "rerankerConfig": "Configuración de reranker",
+      "rerankerBindingHost": "Host de reranker",
+      "rerankerModel": "Modelo de reranker",
+      "lockStatus": "Estado de bloqueo",
+      "threshold": "Umbral"
+    },
+    "propertiesView": {
+      "editProperty": "Editar {{property}}",
+      "editPropertyDescription": "Edita el valor de la propiedad en el área de texto de abajo.",
+      "errors": {
+        "duplicateName": "El nombre del nodo ya existe",
+        "updateFailed": "Falló la actualización del nodo",
+        "tryAgainLater": "Por favor intente de nuevo más tarde",
+        "updateSuccessButMergeFailed": "Propiedades actualizadas, pero la fusión falló: {{error}}",
+        "mergeFailed": "Fusión fallida: {{error}}"
+      },
+      "success": {
+        "entityUpdated": "Nodo actualizado exitosamente",
+        "relationUpdated": "Relación actualizada exitosamente",
+        "entityMerged": "Nodos fusionados exitosamente"
+      },
+      "mergeOptionLabel": "Fusionar automáticamente cuando se encuentra un nombre duplicado",
+      "mergeOptionDescription": "Si se habilita, renombrar a un nombre existente fusionará este nodo con el nodo existente en lugar de fallar.",
+      "mergeDialog": {
+        "title": "Nodo fusionado",
+        "description": "\"{{source}}\" se ha fusionado con \"{{target}}\".",
+        "refreshHint": "Refresque el gráfico para cargar la estructura más reciente.",
+        "keepCurrentStart": "Refrescar y mantener el nodo de inicio actual",
+        "useMergedStart": "Refrescar y usar el nodo fusionado",
+        "refreshing": "Refrescando gráfico..."
+      },
+      "node": {
+        "title": "Nodo",
+        "id": "ID",
+        "labels": "Etiquetas",
+        "degree": "Grado",
+        "properties": "Propiedades",
+        "relationships": "Relaciones (dentro del subgrafo)",
+        "expandNode": "Expandir nodo",
+        "pruneNode": "Poda de nodo",
+        "deleteAllNodesError": "No se permite eliminar todos los nodos del gráfico",
+        "nodesRemoved": "{{count}} nodos eliminados, incluyendo nodos huérfanos",
+        "noNewNodes": "No se encontraron nodos expandibles",
+        "propertyNames": {
+          "description": "Descripción",
+          "entity_id": "Nombre",
+          "entity_type": "Tipo",
+          "source_id": "C-ID",
+          "Neighbour": "Vecino",
+          "file_path": "Archivo",
+          "keywords": "Palabras clave",
+          "weight": "Peso"
+        }
+      },
+      "edge": {
+        "title": "Relación",
+        "id": "ID",
+        "type": "Tipo",
+        "source": "Fuente",
+        "target": "Objetivo",
+        "properties": "Propiedades"
+      }
+    },
+    "search": {
+      "placeholder": "Buscar nodos en la página...",
+      "message": "Y {{count}} más"
+    },
+    "graphLabels": {
+      "selectTooltip": "Obtener subgrafo de un nodo (etiqueta)",
+      "noLabels": "No se encontraron nodos coincidentes",
+      "label": "Buscar nombre de nodo",
+      "placeholder": "Buscar nombre de nodo...",
+      "andOthers": "Y {{count}} más",
+      "refreshGlobalTooltip": "Refrescar los datos globales del gráfico y restablecer el historial de búsqueda",
+      "refreshCurrentLabelTooltip": "Refrescar los datos del gráfico de la página actual",
+      "refreshingTooltip": "Refrescando datos..."
+    },
+    "emptyGraph": "Vacío (Intente recargar nuevamente)"
+  },
+  "retrievePanel": {
+    "chatMessage": {
+      "copyTooltip": "Copiar al portapapeles",
+      "copyError": "Error al copiar el texto al portapapeles",
+      "copyEmpty": "No hay contenido para copiar",
+      "copySuccess": "Contenido copiado al portapapeles",
+      "copySuccessLegacy": "Contenido copiado (método legado)",
+      "copySuccessManual": "Contenido copiado (método manual)",
+      "copyFailed": "Error al copiar contenido",
+      "copyManualInstruction": "Por favor seleccione y copie el texto manualmente",
+      "thinking": "Pensando...",
+      "thinkingTime": "Tiempo de pensamiento {{time}}s",
+      "thinkingInProgress": "Pensando en progreso..."
+    },
+    "retrieval": {
+      "startPrompt": "Inicia una recuperación escribiendo tu consulta a continuación",
+      "clear": "Borrar",
+      "send": "Enviar",
+      "placeholder": "Introduce tu consulta (Soporta prefijo: /<Modo de consulta>)",
+      "error": "Error: Falló al obtener respuesta",
+      "queryModeError": "Solo se admiten los siguientes modos de consulta: {{modes}}",
+      "queryModePrefixInvalid": "Prefijo de modo de consulta inválido. Usa: /<modo> [espacio] tu consulta"
+    },
+    "querySettings": {
+      "parametersTitle": "Parámetros",
+      "parametersDescription": "Configura los parámetros de tu consulta",
+      "queryMode": "Modo de consulta",
+      "queryModeTooltip": "Selecciona la estrategia de recuperación:\n• Naive: Recuperación tradicional de fragmentos de texto\n• Local: Focalización en recuperación de entidades\n• Global: Focalización en recuperación de relaciones\n• Hybrid: Local+Global\n• Mix: Local+Global+Naive\n• Bypass: Omitir recuperación, enviar historial de conversación y pregunta actual a LLM",
+      "queryModeOptions": {
+        "naive": "Naive",
+        "local": "Local",
+        "global": "Global",
+        "hybrid": "Híbrido",
+        "mix": "Mezcla",
+        "bypass": "Omitir"
+      },
+      "responseFormat": "Formato de respuesta",
+      "responseFormatTooltip": "Define el formato de la respuesta. Ejemplos:\n• Varios párrafos\n• Un solo párrafo\n• Puntos clave",
+      "responseFormatOptions": {
+        "multipleParagraphs": "Varios párrafos",
+        "singleParagraph": "Un solo párrafo",
+        "bulletPoints": "Puntos clave"
+      },
+      "topK": "KG Top K",
+      "topKTooltip": "Número de entidades y relaciones a recuperar. Aplicable para modos no ingenuos.",
+      "topKPlaceholder": "Introduce el valor top_k",
+      "chunkTopK": "Chunk Top K",
+      "chunkTopKTooltip": "Número de fragmentos de texto a recuperar, aplicable para todos los modos.",
+      "chunkTopKPlaceholder": "Introduce el valor chunk_top_k",
+      "maxEntityTokens": "Tokens máximos de entidad",
+      "maxEntityTokensTooltip": "Número máximo de tokens asignados al contexto de la entidad en el sistema de control de tokens unificado",
+      "maxRelationTokens": "Tokens máximos de relación",
+      "maxRelationTokensTooltip": "Número máximo de tokens asignados al contexto de la relación en el sistema de control de tokens unificado",
+      "maxTotalTokens": "Tokens totales máximos",
+      "maxTotalTokensTooltip": "Presupuesto total máximo de tokens para todo el contexto de la consulta (entidades + relaciones + fragmentos + mensaje del sistema)",
+      "historyTurns": "Vueltas de historia",
+      "historyTurnsTooltip": "Número de vueltas completas de conversación (pares usuario-asistente) para considerar en el contexto de la respuesta",
+      "historyTurnsPlaceholder": "Número de vueltas de historia",
+      "onlyNeedContext": "Solo contexto necesario",
+      "onlyNeedContextTooltip": "Si es Verdadero, solo devuelve el contexto recuperado sin generar una respuesta",
+      "onlyNeedPrompt": "Solo mensaje de entrada necesario",
+      "onlyNeedPromptTooltip": "Si es Verdadero, solo devuelve el mensaje de entrada generado sin producir una respuesta",
+      "streamResponse": "Respuesta en streaming",
+      "streamResponseTooltip": "Si es Verdadero, habilita la salida en tiempo real para respuestas",
+      "userPrompt": "Mensaje de salida adicional",
+      "userPromptTooltip": "Proporciona requisitos adicionales de respuesta para el LLM (no relacionados con el contenido de la consulta, solo para el procesamiento de la salida).",
+      "userPromptPlaceholder": "Introduce un mensaje personalizado (opcional)",
+      "enableRerank": "Habilitar Rerank",
+      "enableRerankTooltip": "Habilita el reordenamiento para fragmentos de texto recuperados. Si es Verdadero pero no se ha configurado un modelo de reordenamiento, se emitirá una advertencia. El valor predeterminado es Verdadero."
+    }
+  },
+  "apiSite": {
+    "loading": "Cargando documentación de API..."
+  },
+  "apiKeyAlert": {
+    "title": "Se requiere clave API",
+    "description": "Por favor ingrese su clave API para acceder al servicio",
+    "placeholder": "Ingrese su clave API",
+    "save": "Guardar"
+  },
+  "pagination": {
+    "showing": "Mostrando {{start}} a {{end}} de {{total}} entradas",
+    "page": "Página",
+    "pageSize": "Tamaño de página",
+    "firstPage": "Primera página",
+    "prevPage": "Página anterior",
+    "nextPage": "Página siguiente",
+    "lastPage": "Última página"
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "settings": {
+    "language": "ભાષા",
+    "theme": "વિષય",
+    "light": "લાઇટ",
+    "dark": "ડાર્ક",
+    "system": "સિસ્ટમ"
+  },
+  "header": {
+    "documents": "દસ્તાવેજો",
+    "knowledgeGraph": "જ્ઞાન ગ્રાફ",
+    "retrieval": "પ્રાપ્તી",
+    "api": "API",
+    "projectRepository": "પ્રોજેક્ટ રિપોઝિટરી",
+    "logout": "લોગઆઉટ",
+    "frontendNeedsRebuild": "ફ્રન્ટએન્ડને પુનઃનિર્માણની જરૂર છે",
+    "themeToggle": {
+      "switchToLight": "લાઇટ થીમ પર સ્વિચ કરો",
+      "switchToDark": "ડાર્ક થીમ પર સ્વિચ કરો"
+    }
+  },
+  "login": {
+    "description": "સિસ્ટમમાં લોગઇન કરવા માટે તમારું ખાતું અને પાસવર્ડ દાખલ કરો",
+    "username": "યુઝરનું નામ",
+    "usernamePlaceholder": "કૃપા કરીને યુઝરનું નામ દાખલ કરો",
+    "password": "પાસવર્ડ",
+    "passwordPlaceholder": "કૃપા કરીને પાસવર્ડ દાખલ કરો",
+    "loginButton": "લોગઇન",
+    "loggingIn": "લોગઇન થઈ રહ્યું છે...",
+    "successMessage": "લોગઇન સફળ થયું",
+    "errorEmptyFields": "કૃપા કરીને તમારું યુઝરનું નામ અને પાસવર્ડ દાખલ કરો",
+    "errorInvalidCredentials": "લોગઇન નિષ્ફળ, કૃપા કરીને યુઝરનું નામ અને પાસવર્ડ ચકાસો",
+    "authDisabled": "પ્રમાણિકરણ નિષ્ક્રિય છે. લોગઇન મફત મોડ ઉપયોગમાં લેવાયું છે.",
+    "guestMode": "લોગઇન મફત"
+  },
+  "common": {
+    "cancel": "રદ કરો",
+    "save": "સંગ્રહિત કરો",
+    "saving": "સંગ્રહણ કરવું...",
+    "saveFailed": "સંગ્રહણ નિષ્ફળ થયું"
+  },
+  "documentPanel": {
+    "clearDocuments": {
+      "button": "સફા",
+      "tooltip": "દસ્તાવેજો સાફ કરો",
+      "title": "દસ્તાવેજો સાફ કરો",
+      "description": "આ ક્રિયા સિસ્ટમમાંથી તમામ દસ્તાવેજો હટાવી દેશે",
+      "warning": "ચેતવણી: આ ક્રિયા દસ્તાવેજોને પરમાણુ રીતે દૂર કરશે અને આને પાછું લાવવામાં નહિ આવી શકે!",
+      "confirm": "શું તમે ખરેખર તમામ દસ્તાવેજોને સાફ કરવા માંગો છો?",
+      "confirmPrompt": "આ ક્રિયા પુષ્ટિ કરવા માટે 'હા' લખો",
+      "confirmPlaceholder": "પુષ્ટિ કરવા માટે 'હા' લખો",
+      "clearCache": "LLM કેશ સાફ કરો",
+      "confirmButton": "હા",
+      "clearing": "સાફ કરી રહ્યા છે...",
+      "timeout": "સાફ કરવાની પ્રક્રિયા સમાપ્ત સમય સાથે, કૃપા કરીને ફરીથી પ્રયાસ કરો",
+      "success": "દસ્તાવેજો સફળતાપૂર્વક સાફ કરવામાં આવ્યા",
+      "cacheCleared": "કેશ સફળતાપૂર્વક સાફ કરવામાં આવ્યો",
+      "cacheClearFailed": "કેશ સાફ કરવામાં નિષ્ફળ:\n{{error}}",
+      "failed": "દસ્તાવેજો સાફ કરવામાં નિષ્ફળ:\n{{message}}",
+      "error": "દસ્તાવેજો સાફ કરવામાં નિષ્ફળ:\n{{error}}"
+    },
+    "deleteDocuments": {
+      "button": "હટાવો",
+      "tooltip": "ચૂંદાયેલા દસ્તાવેજો દૂર કરો",
+      "title": "દસ્તાવેજો દૂર કરો",
+      "description": "આ ક્રિયા પસંદ કરેલા દસ્તાવેજોને સિસ્ટમમાંથી પરમાણુ રીતે દૂર કરશે",
+      "warning": "ચેતવણી: આ ક્રિયા પસંદ કરેલા દસ્તાવેજોને પરમાણુ રીતે દૂર કરશે અને આને પાછું લાવવામાં નહિ આવી શકે!",
+      "confirm": "શું તમે ખરેખર {{count}} પસંદ કરેલા દસ્તાવેજોને દૂર કરવા માંગો છો?",
+      "confirmPrompt": "આ ક્રિયા પુષ્ટિ કરવા માટે 'હા' લખો",
+      "confirmPlaceholder": "પુષ્ટિ કરવા માટે 'હા' લખો",
+      "confirmButton": "હા",
+      "deleteFileOption": "અપલોડ કરેલા ફાઈલો પણ દૂર કરો",
+      "deleteFileTooltip": "આ વિકલ્પ તપાસો જેથી સર્વર પર જોડાયેલા અપલોડ કરેલા ફાઈલો પણ દૂર થાય",
+      "deleteLLMCacheOption": "આધારભૂત LLM કેશ પણ દૂર કરો",
+      "success": "દસ્તાવેજ દૂર કરવાની પાઈપલાઇન સફળતાપૂર્વક શરૂ થઈ છે",
+      "failed": "દસ્તાવેજો દૂર કરવા માટે નિષ્ફળ:\n{{message}}",
+      "error": "દસ્તાવેજો દૂર કરવા માટે નિષ્ફળ:\n{{error}}",
+      "busy": "પાઈપલાઇન વ્યસ્ત છે, કૃપા કરીને પછીથી પ્રયાસ કરો",
+      "notAllowed": "આ સંચાલન કરવા માટે અનુમતિ નથી"
+    },
+    "selectDocuments": {
+      "selectCurrentPage": "હાલની પેજ પસંદ કરો ({{count}})",
+      "deselectAll": "સામૂહિક પસંદગી દૂર કરો ({{count}})"
+    },
+    "uploadDocuments": {
+      "button": "અપલોડ કરો",
+      "tooltip": "દસ્તાવેજો અપલોડ કરો",
+      "title": "દસ્તાવેજો અપલોડ કરો",
+      "description": "તમારા દસ્તાવેજોને અહીં ખેંચો અને છોડો અથવા બ્રાઉઝ કરવા માટે ક્લિક કરો.",
+      "single": {
+        "uploading": "અપલોડ કરી રહ્યા છે {{name}}: {{percent}}%",
+        "success": "અપલોડ સફળ:\n{{name}} સફળતાપૂર્વક અપલોડ કરવામાં આવ્યો",
+        "failed": "અપલોડ નિષ્ફળ:\n{{name}}\n{{message}}",
+        "error": "અપલોડ નિષ્ફળ:\n{{name}}\n{{error}}"
+      },
+      "batch": {
+        "uploading": "ફાઈલો અપલોડ કરી રહ્યા છે...",
+        "success": "ફાઈલો સફળતાપૂર્વક અપલોડ કરવામાં આવી",
+        "error": "કેટલાંક ફાઈલો અપલોડ કરવામાં નિષ્ફળ"
+      },
+      "generalError": "અપલોડ નિષ્ફળ\n{{error}}",
+      "fileTypes": "સમર્થિત પ્રકારો: TXT, MD, DOCX, PDF, PPTX, XLSX, RTF, ODT, EPUB, HTML, HTM, TEX, JSON, XML, YAML, YML, CSV, LOG, CONF, INI, PROPERTIES, SQL, BAT, SH, C, CPP, PY, JAVA, JS, TS, SWIFT, GO, RB, PHP, CSS, SCSS, LESS",
+      "fileUploader": {
+        "singleFileLimit": "એક સમયે 1 ફાઈલથી વધુ અપલોડ કરી શકતા નથી",
+        "maxFilesLimit": "એક સમયે {{count}} ફાઈલોથી વધુ અપલોડ કરી શકતા નથી",
+        "fileRejected": "ફાઈલ {{name}} رد કરાઈ છે",
+        "unsupportedType": "સપોર્ટેડ નથી થયેલો ફાઈલ પ્રકાર",
+        "fileTooLarge": "ફાઈલ ખૂબ મોટી છે, મહત્તમ કદ {{maxSize}} છે",
+        "dropHere": "ફાઈલો અહીં છોડો",
+        "dragAndDrop": "ફાઈલો અહીં ખેંચો અને છોડો, અથવા ફાઈલ પસંદ કરવા માટે ક્લિક કરો",
+        "removeFile": "ફાઈલ દૂર કરો",
+        "uploadDescription": "તમે {{isMultiple ? 'બહુ' : count}} ફાઈલો અપલોડ કરી શકો છો (દરેક {{maxSize}} સુધી)",
+        "duplicateFile": "ફાઈલ નામ પહેલેથી સર્વર કેશમાં છે"
+      }
+    },
+    "documentManager": {
+      "title": "દસ્તાવેજ પ્રબંધન",
+      "scanButton": "સ્કેન/પુનઃપ્રયત્ન કરો",
+      "scanTooltip": "ઇનપુટ ફોલ્ડરથી દસ્તાવેજો સ્કેન અને પ્રક્રિયા કરો, તેમજ બધા નિષ્ફળ થયેલ દસ્તાવેજો ફરીથી પ્રક્રિયા કરો",
+      "refreshTooltip": "દસ્તાવેજોની યાદી પુનઃસેટ કરો",
+      "pipelineStatusButton": "પાઈપલાઇન",
+      "pipelineStatusTooltip": "દસ્તાવેજ પ્રક્રિયા પાઈપલાઇન સ્થિતિ જુઓ",
+      "uploadedTitle": "અપલોડ કરેલા દસ્તાવેજો",
+      "uploadedDescription": "અપલોડ કરેલા દસ્તાવેજોની યાદી અને તેમનો સ્થિતિ.",
+      "emptyTitle": "કોઈ દસ્તાવેજો નથી",
+      "emptyDescription": "હજી સુધી કોઈ દસ્તાવેજો અપલોડ કરવામાં આવ્યા નથી.",
+      "columns": {
+        "id": "ID",
+        "fileName": "ફાઈલ નામ",
+        "summary": "સારાંશ",
+        "status": "સ્થિતિ",
+        "length": "લંબાઈ",
+        "chunks": "ચંક્સ",
+        "created": "બનાવાયું",
+        "updated": "અપડેટ",
+        "metadata": "મેટાડેટા",
+        "select": "પસંદ કરો"
+      },
+      "status": {
+        "all": "સામૂહિક",
+        "completed": "પૂર્ણ",
+        "preprocessed": "પ્રક્રિયા પૂર્વ",
+        "processing": "પ્રક્રિયા થઈ રહી છે",
+        "pending": "વિશિષ્ટ",
+        "failed": "વિફળ"
+      },
+      "errors": {
+        "loadFailed": "દસ્તાવેજો લોડ કરવામાં નિષ્ફળ\n{{error}}",
+        "scanFailed": "દસ્તાવેજો સ્કેન કરવામાં નિષ્ફળ\n{{error}}",
+        "scanProgressFailed": "સ્કેન પ્રગતિ મેળવવામાં નિષ્ફળ\n{{error}}"
+      },
+      "fileNameLabel": "ફાઈલ નામ",
+      "showButton": "દેખાવો",
+      "hideButton": "છુપાવો",
+      "showFileNameTooltip": "ફાઈલ નામ બતાવો",
+      "hideFileNameTooltip": "ફાઈલ નામ છુપાવો"
+    },
+    "pipelineStatus": {
+      "title": "પાઈપલાઇન સ્થિતિ",
+      "busy": "પાઈપલાઇન વ્યસ્ત છે",
+      "requestPending": "વિનંતી પ્રતિક્ષીધા",
+      "cancellationRequested": "રદ કરવું વિનંતી કરવામાં આવી છે",
+      "jobName": "જોબનું નામ",
+      "startTime": "પ્રારંભ સમય",
+      "progress": "પ્રગતિ",
+      "unit": "બેચ",
+      "pipelineMessages": "પાઈપલાઇન સંદેશા",
+      "cancelButton": "રદ કરો",
+      "cancelTooltip": "પાઈપલાઇન પ્રક્રિયા રદ કરો",
+      "cancelConfirmTitle": "પાઈપલાઇન રદ કરવા માટે પુષ્ટિ",
+      "cancelConfirmDescription": "આ પાઈપલાઇન પ્રક્રિયાને અટકાવશે. શું તમે ખરેખર ચાલુ રાખવા માંગો છો?",
+      "cancelConfirmButton": "રદ કરવાની પુષ્ટિ",
+      "cancelInProgress": "રદ કરવામાં આવી રહ્યું છે...",
+      "pipelineNotRunning": "પાઈપલાઇન ચલાવતી નથી",
+      "cancelSuccess": "પાઈપલાઇન રદ કરવાનું વિનંતી કરવામાં આવી",
+      "cancelFailed": "પાઈપલાઇન રદ કરવામાં નિષ્ફળ\n{{error}}",
+      "cancelNotBusy": "પાઈપલાઇન વ્યસ્ત નથી, રદ કરવાની જરૂર નથી",
+      "errors": {
+        "fetchFailed": "પાઈપલાઇન સ્થિતિ મેળવવામાં નિષ્ફળ\n{{error}}"
+      }
+    }
+  }
+}

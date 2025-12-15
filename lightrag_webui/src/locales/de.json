@@ -1,0 +1,375 @@
+{
+  "settings": {
+    "language": "Sprache",
+    "theme": "Thema",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "header": {
+    "documents": "Dokumente",
+    "knowledgeGraph": "Wissensgraph",
+    "retrieval": "Abruf",
+    "api": "API",
+    "projectRepository": "Projekt-Repository",
+    "logout": "Abmelden",
+    "frontendNeedsRebuild": "Frontend muss neu gebaut werden",
+    "themeToggle": {
+      "switchToLight": "Zum hellen Thema wechseln",
+      "switchToDark": "Zum dunklen Thema wechseln"
+    }
+  },
+  "login": {
+    "description": "Bitte geben Sie Ihren Benutzernamen und Passwort ein, um sich im System anzumelden",
+    "username": "Benutzername",
+    "usernamePlaceholder": "Bitte geben Sie einen Benutzernamen ein",
+    "password": "Passwort",
+    "passwordPlaceholder": "Bitte geben Sie ein Passwort ein",
+    "loginButton": "Anmelden",
+    "loggingIn": "Anmeldung läuft...",
+    "successMessage": "Anmeldung erfolgreich",
+    "errorEmptyFields": "Bitte geben Sie Ihren Benutzernamen und Passwort ein",
+    "errorInvalidCredentials": "Anmeldung fehlgeschlagen, bitte überprüfen Sie den Benutzernamen und das Passwort",
+    "authDisabled": "Authentifizierung ist deaktiviert. Verwenden des Login-freien Modus.",
+    "guestMode": "Login-frei"
+  },
+  "common": {
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "saving": "Speichern...",
+    "saveFailed": "Speichern fehlgeschlagen"
+  },
+  "documentPanel": {
+    "clearDocuments": {
+      "button": "Löschen",
+      "tooltip": "Dokumente löschen",
+      "title": "Dokumente löschen",
+      "description": "Dies entfernt alle Dokumente aus dem System",
+      "warning": "WARNUNG: Diese Aktion wird alle Dokumente dauerhaft löschen und kann nicht rückgängig gemacht werden!",
+      "confirm": "Möchten Sie wirklich alle Dokumente löschen?",
+      "confirmPrompt": "Tippen Sie 'ja' ein, um diese Aktion zu bestätigen",
+      "confirmPlaceholder": "Tippen Sie ja ein, um zu bestätigen",
+      "clearCache": "LLM-Cache löschen",
+      "confirmButton": "JA",
+      "clearing": "Wird gelöscht...",
+      "timeout": "Löschvorgang ist abgelaufen, bitte versuchen Sie es erneut",
+      "success": "Dokumente wurden erfolgreich gelöscht",
+      "cacheCleared": "Cache erfolgreich gelöscht",
+      "cacheClearFailed": "Fehler beim Löschen des Caches:\n{{error}}",
+      "failed": "Fehler beim Löschen der Dokumente:\n{{message}}",
+      "error": "Fehler beim Löschen der Dokumente:\n{{error}}"
+    },
+    "deleteDocuments": {
+      "button": "Löschen",
+      "tooltip": "Ausgewählte Dokumente löschen",
+      "title": "Dokumente löschen",
+      "description": "Dies wird die ausgewählten Dokumente dauerhaft aus dem System löschen",
+      "warning": "WARNUNG: Diese Aktion wird die ausgewählten Dokumente dauerhaft löschen und kann nicht rückgängig gemacht werden!",
+      "confirm": "Möchten Sie wirklich {{count}} ausgewählte Dokumente löschen?",
+      "confirmPrompt": "Tippen Sie 'ja' ein, um diese Aktion zu bestätigen",
+      "confirmPlaceholder": "Tippen Sie ja ein, um zu bestätigen",
+      "confirmButton": "JA",
+      "deleteFileOption": "Auch hochgeladene Dateien löschen",
+      "deleteFileTooltip": "Aktivieren Sie diese Option, um auch die entsprechenden hochgeladenen Dateien auf dem Server zu löschen",
+      "deleteLLMCacheOption": "Auch extrahierten LLM-Cache löschen",
+      "success": "Dokumentlöschvorgang erfolgreich gestartet",
+      "failed": "Fehler beim Löschen der Dokumente:\n{{message}}",
+      "error": "Fehler beim Löschen der Dokumente:\n{{error}}",
+      "busy": "Pipeline ist beschäftigt, bitte versuchen Sie es später erneut",
+      "notAllowed": "Keine Berechtigung, diese Aktion auszuführen"
+    },
+    "selectDocuments": {
+      "selectCurrentPage": "Aktuelle Seite auswählen ({{count}})",
+      "deselectAll": "Alle abwählen ({{count}})"
+    },
+    "uploadDocuments": {
+      "button": "Hochladen",
+      "tooltip": "Dokumente hochladen",
+      "title": "Dokumente hochladen",
+      "description": "Ziehen Sie Ihre Dokumente hierher oder klicken Sie, um zu durchsuchen.",
+      "single": {
+        "uploading": "Lade {{name}} hoch: {{percent}}%",
+        "success": "Upload erfolgreich:\n{{name}} erfolgreich hochgeladen",
+        "failed": "Upload fehlgeschlagen:\n{{name}}\n{{message}}",
+        "error": "Upload fehlgeschlagen:\n{{name}}\n{{error}}"
+      },
+      "batch": {
+        "uploading": "Lade Dateien hoch...",
+        "success": "Dateien wurden erfolgreich hochgeladen",
+        "error": "Einige Dateien konnten nicht hochgeladen werden"
+      },
+      "generalError": "Upload fehlgeschlagen\n{{error}}",
+      "fileTypes": "Unterstützte Dateitypen: TXT, MD, DOCX, PDF, PPTX, XLSX, RTF, ODT, EPUB, HTML, HTM, TEX, JSON, XML, YAML, YML, CSV, LOG, CONF, INI, PROPERTIES, SQL, BAT, SH, C, CPP, PY, JAVA, JS, TS, SWIFT, GO, RB, PHP, CSS, SCSS, LESS",
+      "fileUploader": {
+        "singleFileLimit": "Es kann jeweils nur 1 Datei hochgeladen werden",
+        "maxFilesLimit": "Es können höchstens {{count}} Dateien hochgeladen werden",
+        "fileRejected": "Datei {{name}} wurde abgelehnt",
+        "unsupportedType": "Nicht unterstützter Dateityp",
+        "fileTooLarge": "Datei zu groß, maximale Größe ist {{maxSize}}",
+        "dropHere": "Dateien hier ablegen",
+        "dragAndDrop": "Ziehen Sie Dateien hierher oder klicken Sie, um Dateien auszuwählen",
+        "removeFile": "Datei entfernen",
+        "uploadDescription": "Sie können {{isMultiple ? 'mehrere' : count}} Dateien hochladen (jeweils bis zu {{maxSize}})",
+        "duplicateFile": "Dateiname existiert bereits im Server-Cache"
+      }
+    },
+    "documentManager": {
+      "title": "Dokumentenverwaltung",
+      "scanButton": "Scannen/Wiederholen",
+      "scanTooltip": "Scannen und Verarbeiten von Dokumenten im Eingabeverzeichnis, und auch alle fehlgeschlagenen Dokumente erneut verarbeiten",
+      "refreshTooltip": "Dokumentenliste zurücksetzen",
+      "pipelineStatusButton": "Pipeline",
+      "pipelineStatusTooltip": "Pipeline-Status anzeigen",
+      "uploadedTitle": "Hochgeladene Dokumente",
+      "uploadedDescription": "Liste der hochgeladenen Dokumente und deren Status.",
+      "emptyTitle": "Keine Dokumente",
+      "emptyDescription": "Es wurden noch keine Dokumente hochgeladen.",
+      "columns": {
+        "id": "ID",
+        "fileName": "Dateiname",
+        "summary": "Zusammenfassung",
+        "status": "Status",
+        "length": "Länge",
+        "chunks": "Stücke",
+        "created": "Erstellt",
+        "updated": "Aktualisiert",
+        "metadata": "Metadaten",
+        "select": "Auswählen"
+      },
+      "status": {
+        "all": "Alle",
+        "completed": "Abgeschlossen",
+        "preprocessed": "Vorverarbeitet",
+        "processing": "Verarbeitung",
+        "pending": "Ausstehend",
+        "failed": "Fehlgeschlagen"
+      },
+      "errors": {
+        "loadFailed": "Fehler beim Laden der Dokumente\n{{error}}",
+        "scanFailed": "Fehler beim Scannen der Dokumente\n{{error}}",
+        "scanProgressFailed": "Fehler beim Abrufen des Scanfortschritts\n{{error}}"
+      },
+      "fileNameLabel": "Dateiname",
+      "showButton": "Anzeigen",
+      "hideButton": "Verbergen",
+      "showFileNameTooltip": "Dateiname anzeigen",
+      "hideFileNameTooltip": "Dateiname verbergen"
+    },
+    "pipelineStatus": {
+      "title": "Pipeline-Status",
+      "busy": "Pipeline beschäftigt",
+      "requestPending": "Anfrage ausstehend",
+      "cancellationRequested": "Abbruch angefordert",
+      "jobName": "Job-Name",
+      "startTime": "Startzeit",
+      "progress": "Fortschritt",
+      "unit": "Batch",
+      "pipelineMessages": "Pipeline-Nachrichten",
+      "cancelButton": "Abbrechen",
+      "cancelTooltip": "Pipeline-Verarbeitung abbrechen",
+      "cancelConfirmTitle": "Bestätigen Sie den Pipeline-Abbruch",
+      "cancelConfirmDescription": "Dies wird die laufende Pipeline-Verarbeitung unterbrechen. Sind Sie sicher, dass Sie fortfahren möchten?",
+      "cancelConfirmButton": "Abbruch bestätigen",
+      "cancelInProgress": "Abbruch läuft...",
+      "pipelineNotRunning": "Pipeline läuft nicht",
+      "cancelSuccess": "Pipeline-Abbruch angefordert",
+      "cancelFailed": "Fehler beim Abbrechen der Pipeline\n{{error}}",
+      "cancelNotBusy": "Pipeline läuft nicht, kein Abbruch nötig",
+      "errors": {
+        "fetchFailed": "Fehler beim Abrufen des Pipeline-Status\n{{error}}"
+      }
+    }
+  },
+  "graphPanel": {
+    "dataIsTruncated": "Graphdaten sind auf maximale Knoten begrenzt",
+    "statusDialog": {
+      "title": "LightRAG Server-Einstellungen",
+      "description": "Aktuellen Systemstatus und Verbindungsinformationen anzeigen"
+    },
+    "legend": "Legende",
+    "nodeTypes": {
+      "person": "Person",
+      "category": "Kategorie",
+      "geo": "Geografisch",
+      "location": "Ort",
+      "organization": "Organisation",
+      "event": "Ereignis",
+      "equipment": "Ausrüstung",
+      "weapon": "Waffe",
+      "animal": "Tier",
+      "unknown": "Unbekannt",
+      "object": "Objekt",
+      "group": "Gruppe",
+      "technology": "Technologie",
+      "product": "Produkt",
+      "document": "Dokument",
+      "content": "Inhalt",
+      "data": "Daten",
+      "artifact": "Artefakt",
+      "concept": "Konzept",
+      "naturalobject": "Natürliches Objekt",
+      "method": "Methode",
+      "creature": "Kreatur",
+      "plant": "Pflanze",
+      "disease": "Krankheit",
+      "drug": "Medikament",
+      "food": "Essen",
+      "other": "Sonstiges"
+    },
+    "sideBar": {
+      "settings": {
+        "settings": "Einstellungen",
+        "healthCheck": "Gesundheitscheck",
+        "showPropertyPanel": "Eigenschaftspanel anzeigen",
+        "showSearchBar": "Suchleiste anzeigen",
+        "showNodeLabel": "Knotennamen anzeigen",
+        "nodeDraggable": "Knoten verschiebbar",
+        "showEdgeLabel": "Kantenbezeichner anzeigen",
+        "hideUnselectedEdges": "Nicht ausgewählte Kanten ausblenden",
+        "edgeEvents": "Kantenereignisse",
+        "maxQueryDepth": "Maximale Abfragetiefe",
+        "maxNodes": "Maximale Knoten",
+        "maxLayoutIterations": "Maximale Layout-Iterationen",
+        "resetToDefault": "Auf Standard zurücksetzen",
+        "edgeSizeRange": "Kanten-Größenbereich",
+        "depth": "T",
+        "max": "Max",
+        "degree": "Grad",
+        "apiKey": "API-Schlüssel",
+        "enterYourAPIkey": "Geben Sie Ihren API-Schlüssel ein",
+        "save": "Speichern",
+        "refreshLayout": "Layout aktualisieren"
+      },
+      "zoomControl": {
+        "zoomIn": "Hineinzoomen",
+        "zoomOut": "Herauszoomen",
+        "resetZoom": "Zoom zurücksetzen",
+        "rotateCamera": "Kamera im Uhrzeigersinn drehen",
+        "rotateCameraCounterClockwise": "Kamera gegen den Uhrzeigersinn drehen"
+      },
+      "layoutsControl": {
+        "startAnimation": "Layout-Animation fortsetzen",
+        "stopAnimation": "Layout-Animation stoppen",
+        "layoutGraph": "Graph layouten",
+        "layouts": {
+          "Circular": "Kreisförmig",
+          "Circlepack": "Kreispackung",
+          "Random": "Zufällig",
+          "Noverlaps": "Keine Überlappungen",
+          "Force Directed": "Kraftgesteuert",
+          "Force Atlas": "Kraft Atlas"
+        }
+      },
+      "fullScreenControl": {
+        "fullScreen": "Vollbild",
+        "windowed": "Fenster"
+      },
+      "legendControl": {
+        "toggleLegend": "Legende ein-/ausblenden"
+      }
+    },
+    "statusIndicator": {
+      "connected": "Verbunden",
+      "disconnected": "Getrennt"
+    },
+    "statusCard": {
+      "unavailable": "Statusinformationen nicht verfügbar",
+      "serverInfo": "Server-Info",
+      "workingDirectory": "Arbeitsverzeichnis",
+      "inputDirectory": "Eingabeverzeichnis",
+      "maxParallelInsert": "Gleichzeitige Dokumentenverarbeitung",
+      "summarySettings": "Zusammenfassende Einstellungen",
+      "llmConfig": "LLM-Konfiguration",
+      "llmBinding": "LLM-Bindung",
+      "llmBindingHost": "LLM-Endpunkt",
+      "llmModel": "LLM-Modell",
+      "embeddingConfig": "Einbettungs-Konfiguration",
+      "embeddingBinding": "Einbettungs-Bindung",
+      "embeddingBindingHost": "Einbettungs-Endpunkt",
+      "embeddingModel": "Einbettungsmodell",
+      "storageConfig": "Speicher-Konfiguration",
+      "kvStorage": "KV-Speicher",
+      "docStatusStorage": "Dokumentenstatus-Speicher",
+      "graphStorage": "Graph-Speicher",
+      "vectorStorage": "Vektorspeicher",
+      "workspace": "Arbeitsbereich",
+      "maxGraphNodes": "Maximale Graph-Knoten",
+      "rerankerConfig": "Reranker-Konfiguration",
+      "rerankerBindingHost": "Reranker-Endpunkt",
+      "rerankerModel": "Reranker-Modell",
+      "lockStatus": "Lock-Status",
+      "threshold": "Schwelle"
+    },
+    "propertiesView": {
+      "editProperty": "Bearbeiten {{property}}",
+      "editPropertyDescription": "Bearbeiten Sie den Eigenschaftswert im untenstehenden Textbereich.",
+      "errors": {
+        "duplicateName": "Knotenname existiert bereits",
+        "updateFailed": "Aktualisierung des Knotens fehlgeschlagen",
+        "tryAgainLater": "Bitte versuchen Sie es später erneut",
+        "updateSuccessButMergeFailed": "Eigenschaften wurden aktualisiert, aber Zusammenführung fehlgeschlagen: {{error}}",
+        "mergeFailed": "Zusammenführung fehlgeschlagen: {{error}}"
+      },
+      "success": {
+        "entityUpdated": "Knoten erfolgreich aktualisiert",
+        "relationUpdated": "Beziehung erfolgreich aktualisiert",
+        "entityMerged": "Knoten erfolgreich zusammengeführt"
+      },
+      "mergeOptionLabel": "Automatisch zusammenführen, wenn ein doppelter Name gefunden wird",
+      "mergeOptionDescription": "Wenn aktiviert, wird ein Umbenennen zu einem vorhandenen Namen diesen Knoten in den bestehenden zusammenführen, anstatt zu scheitern.",
+      "mergeDialog": {
+        "title": "Knoten zusammengeführt",
+        "description": "\"{{source}}\" wurde in \"{{target}}\" zusammengeführt.",
+        "refreshHint": "Aktualisieren Sie den Graphen, um die neueste Struktur zu laden.",
+        "keepCurrentStart": "Aktualisieren und aktuellen Startknoten beibehalten",
+        "useMergedStart": "Aktualisieren und zusammengeführten Knoten verwenden",
+        "refreshing": "Graph wird aktualisiert..."
+      },
+      "node": {
+        "title": "Knoten",
+        "id": "ID",
+        "labels": "Etiketten",
+        "degree": "Grad",
+        "properties": "Eigenschaften",
+        "relationships": "Beziehungen (innerhalb des Teilgraphen)",
+        "expandNode": "Knoten erweitern",
+        "pruneNode": "Knoten ausdünnen",
+        "deleteAllNodesError": "Löschen aller Knoten im Graphen verweigert",
+        "nodesRemoved": "{{count}} Knoten entfernt, einschließlich verwaister Knoten",
+        "noNewNodes": "Keine erweiterbaren Knoten gefunden",
+        "propertyNames": {
+          "description": "Beschreibung",
+          "entity_id": "Name",
+          "entity_type": "Typ",
+          "source_id": "C-ID",
+          "Neighbour": "Nachbar",
+          "file_path": "Datei",
+          "keywords": "Schlüsselwörter",
+          "weight": "Gewicht"
+        }
+      },
+      "edge": {
+        "title": "Beziehung",
+        "id": "ID",
+        "type": "Typ",
+        "source": "Quelle",
+        "target": "Ziel",
+        "properties": "Eigenschaften"
+      }
+    },
+    "search": {
+      "placeholder": "Knoten auf der Seite suchen...",
+      "message": "Und {{count}} andere"
+    },
+    "graphLabels": {
+      "selectTooltip": "Untergraph eines Knotens abrufen (Bezeichnung)",
+      "noLabels": "Keine passenden Knoten gefunden",
+      "label": "Knotenname suchen",
+      "placeholder": "Knotenname suchen...",
+      "andOthers": "Und {{count}} andere",
+      "refreshGlobalTooltip": "Globale Graphdaten aktualisieren und Suchverlauf zurücksetzen",
+      "searching": "Suche läuft...",
+      "graphError": "Fehler beim Abrufen von Graphdaten. Erneut versuchen."
+    }
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "settings": {
+    "language": "भाषा",
+    "theme": "थीम",
+    "light": "लाइट",
+    "dark": "डार्क",
+    "system": "सिस्टम"
+  },
+  "header": {
+    "documents": "दस्तावेज़",
+    "knowledgeGraph": "ज्ञान ग्राफ़",
+    "retrieval": "रिकवरी",
+    "api": "एपीआई",
+    "projectRepository": "प्रोजेक्ट रिपॉजिटरी",
+    "logout": "लॉगआउट",
+    "frontendNeedsRebuild": "फ्रंटएंड को फिर से निर्माण की आवश्यकता है",
+    "themeToggle": {
+      "switchToLight": "लाइट थीम में स्विच करें",
+      "switchToDark": "डार्क थीम में स्विच करें"
+    }
+  },
+  "login": {
+    "description": "कृपया लॉग इन करने के लिए अपना खाता और पासवर्ड दर्ज करें",
+    "username": "यूज़रनेम",
+    "usernamePlaceholder": "कृपया एक यूज़रनेम दर्ज करें",
+    "password": "पासवर्ड",
+    "passwordPlaceholder": "कृपया एक पासवर्ड दर्ज करें",
+    "loginButton": "लॉग इन",
+    "loggingIn": "लॉग इन हो रहा है...",
+    "successMessage": "लॉगिन सफल",
+    "errorEmptyFields": "कृपया अपना यूज़रनेम और पासवर्ड दर्ज करें",
+    "errorInvalidCredentials": "लॉगिन विफल, कृपया यूज़रनेम और पासवर्ड जांचें",
+    "authDisabled": "प्रमाणीकरण अक्षम है। लॉगिन मुक्त मोड का उपयोग किया जा रहा है।",
+    "guestMode": "लॉगिन मुक्त"
+  },
+  "common": {
+    "cancel": "रद्द करें",
+    "save": "सहेजें",
+    "saving": "सहेजा जा रहा है...",
+    "saveFailed": "सहेजने में विफल"
+  },
+  "documentPanel": {
+    "clearDocuments": {
+      "button": "साफ़ करें",
+      "tooltip": "दस्तावेज़ों को साफ़ करें",
+      "title": "दस्तावेज़ साफ़ करें",
+      "description": "यह कार्रवाई सभी दस्तावेज़ों को सिस्टम से हटा देगी",
+      "warning": "चेतावनी: यह कार्रवाई सभी दस्तावेज़ों को स्थायी रूप से हटा देगी और इसे पूर्ववत नहीं किया जा सकता!",
+      "confirm": "क्या आप वाकई सभी दस्तावेज़ों को साफ़ करना चाहते हैं?",
+      "confirmPrompt": "इस क्रिया की पुष्टि करने के लिए 'हां' टाइप करें",
+      "confirmPlaceholder": "कृपया पुष्टि करने के लिए 'हां' टाइप करें",
+      "clearCache": "LLM कैश साफ़ करें",
+      "confirmButton": "हां",
+      "clearing": "साफ़ किया जा रहा है...",
+      "timeout": "साफ़ करने की प्रक्रिया समय समाप्त हो गई, कृपया पुनः प्रयास करें",
+      "success": "दस्तावेज़ सफलतापूर्वक साफ़ कर दिए गए",
+      "cacheCleared": "कैश सफलतापूर्वक साफ़ किया गया",
+      "cacheClearFailed": "कैश साफ़ करने में विफल:\n{{error}}",
+      "failed": "दस्तावेज़ साफ़ करने में विफल:\n{{message}}",
+      "error": "दस्तावेज़ साफ़ करने में विफल:\n{{error}}"
+    },
+    "deleteDocuments": {
+      "button": "हटाएं",
+      "tooltip": "चयनित दस्तावेज़ों को हटाएं",
+      "title": "दस्तावेज़ हटाएं",
+      "description": "यह कार्रवाई चयनित दस्तावेज़ों को सिस्टम से स्थायी रूप से हटा देगी",
+      "warning": "चेतावनी: यह कार्रवाई चयनित दस्तावेज़ों को स्थायी रूप से हटा देगी और इसे पूर्ववत नहीं किया जा सकता!",
+      "confirm": "क्या आप वाकई {{count}} चयनित दस्तावेज़ों को हटाना चाहते हैं?",
+      "confirmPrompt": "इस क्रिया की पुष्टि करने के लिए 'हां' टाइप करें",
+      "confirmPlaceholder": "कृपया पुष्टि करने के लिए 'हां' टाइप करें",
+      "confirmButton": "हां",
+      "deleteFileOption": "अपलोड की गई फाइलें भी हटाएं",
+      "deleteFileTooltip": "यदि यह विकल्प चेक किया गया हो तो संबंधित अपलोड की गई फाइलें भी सर्वर से हटा दी जाएंगी",
+      "deleteLLMCacheOption": "निकाले गए LLM कैश को भी हटाएं",
+      "success": "दस्तावेज़ हटाने की प्रक्रिया सफलतापूर्वक शुरू हो गई",
+      "failed": "दस्तावेज़ हटाने में विफल:\n{{message}}",
+      "error": "दस्तावेज़ हटाने में विफल:\n{{error}}",
+      "busy": "पाइपलाइन व्यस्त है, कृपया बाद में प्रयास करें",
+      "notAllowed": "इस क्रिया को करने की अनुमति नहीं है"
+    },
+    "selectDocuments": {
+      "selectCurrentPage": "वर्तमान पृष्ठ का चयन करें ({{count}})",
+      "deselectAll": "सभी का चयन हटाएं ({{count}})"
+    },
+    "uploadDocuments": {
+      "button": "अपलोड करें",
+      "tooltip": "दस्तावेज़ अपलोड करें",
+      "title": "दस्तावेज़ अपलोड करें",
+      "description": "यहां अपने दस्तावेज़ खींचें और छोड़ें या ब्राउज़ करने के लिए क्लिक करें।",
+      "single": {
+        "uploading": "अपलोड हो रहा है {{name}}: {{percent}}%",
+        "success": "अपलोड सफलता:\n{{name}} सफलतापूर्वक अपलोड किया गया",
+        "failed": "अपलोड विफल:\n{{name}}\n{{message}}",
+        "error": "अपलोड विफल:\n{{name}}\n{{error}}"
+      },
+      "batch": {
+        "uploading": "फाइलें अपलोड हो रही हैं...",
+        "success": "फाइलें सफलतापूर्वक अपलोड की गईं",
+        "error": "कुछ फाइलों को अपलोड करने में विफल"
+      },
+      "generalError": "अपलोड विफल\n{{error}}",
+      "fileTypes": "समर्थित प्रकार: TXT, MD, DOCX, PDF, PPTX, XLSX, RTF, ODT, EPUB, HTML, HTM, TEX, JSON, XML, YAML, YML, CSV, LOG, CONF, INI, PROPERTIES, SQL, BAT, SH, C, CPP, PY, JAVA, JS, TS, SWIFT, GO, RB, PHP, CSS, SCSS, LESS",
+      "fileUploader": {
+        "singleFileLimit": "एक बार में एक से अधिक फाइल अपलोड नहीं कर सकते",
+        "maxFilesLimit": "एक बार में {{count}} से अधिक फाइलें अपलोड नहीं कर सकते",
+        "fileRejected": "फाइल {{name}} अस्वीकृत कर दी गई",
+        "unsupportedType": "असमर्थित फाइल प्रकार",
+        "fileTooLarge": "फाइल बहुत बड़ी है, अधिकतम आकार {{maxSize}} है",
+        "dropHere": "यहां फाइलें छोड़ें",
+        "dragAndDrop": "फाइलें खींचकर यहां छोड़ें, या फाइलों का चयन करने के लिए क्लिक करें",
+        "removeFile": "फाइल हटाएं",
+        "uploadDescription": "आप {{isMultiple ? 'multiple' : count}} फाइलें अपलोड कर सकते हैं (प्रत्येक का अधिकतम आकार {{maxSize}})",
+        "duplicateFile": "फाइल नाम पहले से सर्वर कैश में मौजूद है"
+      }
+    },
+    "documentManager": {
+      "title": "दस्तावेज़ प्रबंधन",
+      "scanButton": "स्कैन/पुनः प्रयास करें",
+      "scanTooltip": "इनपुट फ़ोल्डर में दस्तावेज़ों को स्कैन और प्रोसेस करें, और सभी विफल दस्तावेज़ों को फिर से प्रोसेस करें",
+      "refreshTooltip": "दस्तावेज़ सूची को रीसेट करें",
+      "pipelineStatusButton": "पाइपलाइन",
+      "pipelineStatusTooltip": "दस्तावेज़ प्रोसेसिंग पाइपलाइन की स्थिति देखें",
+      "uploadedTitle": "अपलोड किए गए दस्तावेज़",
+      "uploadedDescription": "अपलोड किए गए दस्तावेज़ों और उनकी स्थितियों की सूची।",
+      "emptyTitle": "कोई दस्तावेज़ नहीं",
+      "emptyDescription": "अभी तक कोई दस्तावेज़ अपलोड नहीं किए गए हैं।",
+      "columns": {
+        "id": "आईडी",
+        "fileName": "फाइल नाम",
+        "summary": "सारांश",
+        "status": "स्थिति",
+        "length": "लंबाई",
+        "chunks": "टुकड़े",
+        "created": "बनाया गया",
+        "updated": "अपडेट किया गया",
+        "metadata": "मेटाडाटा",
+        "select": "चयन करें"
+      },
+      "status": {
+        "all": "सभी",
+        "completed": "पूर्ण",
+        "preprocessed": "पूर्वप्रोसेस्ड",
+        "processing": "प्रोसेस हो रहा है",
+        "pending": "लंबित",
+        "failed": "विफल"
+      },
+      "errors": {
+        "loadFailed": "दस्तावेज़ लोड करने में विफल\n{{error}}",
+        "scanFailed": "दस्तावेज़ स्कैन करने में विफल\n{{error}}",
+        "scanProgressFailed": "स्कैन प्रगति प्राप्त करने में विफल\n{{error}}"
+      },
+      "fileNameLabel": "फाइल नाम",
+      "showButton": "दिखाएं",
+      "hideButton": "छिपाएं",
+      "showFileNameTooltip": "फाइल नाम दिखाएं",
+      "hideFileNameTooltip": "फाइल नाम छिपाएं"
+    },
+    "pipelineStatus": {
+      "title": "पाइपलाइन स्थिति",
+      "busy": "पाइपलाइन व्यस्त है",
+      "requestPending": "अनुरोध लंबित है",
+      "cancellationRequested": "रद्दीकरण अनुरोध किया गया",
+      "jobName": "कार्य का नाम",
+      "startTime": "प्रारंभ समय",
+      "progress": "प्रगति",
+      "unit": "बैच",
+      "pipelineMessages": "पाइपलाइन संदेश",
+      "cancelButton": "रद्द करें",
+      "cancelTooltip": "पाइपलाइन प्रोसेसिंग रद्द करें",
+      "cancelConfirmTitle": "पाइपलाइन रद्दीकरण की पुष्टि करें",
+      "cancelConfirmDescription": "यह जारी पाइपलाइन प्रोसेसिंग को बाधित करेगा। क्या आप वाकई जारी रखना चाहते हैं?",
+      "cancelConfirmButton": "रद्दीकरण की पुष्टि करें",
+      "cancelInProgress": "रद्दीकरण प्रगति पर है...",
+      "pipelineNotRunning": "पाइपलाइन चल नहीं रही",
+      "cancelSuccess": "पाइपलाइन रद्दीकरण अनुरोध किया गया",
+      "cancelFailed": "पाइपलाइन रद्द करने में विफल\n{{error}}",
+      "cancelNotBusy": "पाइपलाइन नहीं चल रही है, रद्द करने की आवश्यकता नहीं है",
+      "errors": {
+        "fetchFailed": "पाइपलाइन स्थिति प्राप्त करने में विफल\n{{error}}"
+      }
+    }
+  },
+  "graphPanel": {
+    "dataIsTruncated": "ग्राफ़ डेटा अधिकतम नोड्स तक संकुचित किया गया है",
+    "statusDialog": {
+      "title": "LightRAG सर्वर सेटिंग्स",
+      "description": "वर्तमान सिस्टम स्थिति और कनेक्शन जानकारी देखें"
+    },
+    "legend": "किंवदंती",
+    "nodeTypes": {
+      "person": "व्यक्ति",
+      "category": "श्रेणी",
+      "geo": "भौगोलिक",
+      "location": "स्थान",
+      "organization": "संगठन",
+      "event": "घटना",
+      "equipment": "उपकरण",
+      "weapon": "हथियार",
+      "animal": "जानवर",
+      "unknown": "अज्ञात",
+      "object": "वस्तु",
+      "group": "समूह",
+      "technology": "प्रौद्योगिकी",
+      "product": "उत्पाद",
+      "document": "दस्तावेज़",
+      "content": "सामग्री",
+      "data": "डेटा",
+      "artifact": "कलाकृति",
+      "concept": "संकल्पना",
+      "naturalobject": "प्राकृतिक वस्तु",
+      "method": "विधि",
+      "creature": "जीव",
+      "plant": "पौधा",
+      "disease": "रोग",
+      "drug": "दवा",
+      "food": "खाना",
+      "other": "अन्य"
+    },
+    "sideBar": {
+      "settings": {
+        "settings": "सेटिंग्स",
+        "healthCheck": "स्वास्थ्य जांच",
+        "showPropertyPanel": "गुण प्रॉपर्टी पैनल दिखाएं",
+        "showSearchBar": "खोज पट्टी दिखाएं",
+        "showNodeLabel": "नोड लेबल दिखाएं",
+        "nodeDraggable": "नोड को ड्रैग करने योग्य बनाएं",
+        "showEdgeLabel": "एज लेबल दिखाएं",
+        "hideUnselectedEdges": "अचयनित एजेस छिपाएं",
+        "edgeEvents": "एज इवेंट्स",
+        "maxQueryDepth": "अधिकतम क्वेरी गहराई",
+        "maxNodes": "अधिकतम नोड्स",
+        "maxLayoutIterations": "अधिकतम लेआउट पुनरावृत्तियां",
+        "resetToDefault": "डिफ़ॉल्ट पर रीसेट करें",
+        "edgeSizeRange": "एज आकार सीमा",
+        "depth": "गहराई",
+        "max": "अधिकतम",
+        "degree": "डिग्री",
+        "apiKey": "एपीआई कुंजी",
+        "enterYourAPIkey": "अपनी एपीआई कुंजी दर्ज करें",
+        "save": "सहेजें",
+        "refreshLayout": "लेआउट रीफ्रेश करें"
+      },
+      "zoomControl": {
+        "zoomIn": "ज़ूम इन करें",
+        "zoomOut": "ज़ूम आउट करें",
+        "resetZoom": "ज़ूम रीसेट करें",
+        "rotateCamera": "कैमरा घड़ी की दिशा में घुमाएं",
+        "rotateCameraCounterClockwise": "कैमरा घड़ी की विपरीत दिशा में घुमाएं"
+      },
+      "layoutsControl": {
+        "startAnimation": "लेआउट एनीमेशन जारी रखें",
+        "stopAnimation": "लेआउट एनीमेशन रोकें",
+        "layoutGraph": "ग्राफ़ लेआउट",
+        "layouts": {
+          "Circular": "वृत्ताकार",
+          "Circlepack": "सर्कलपैक",
+          "Random": "यादृच्छिक",
+          "Noverlaps": "नोवरलैप्स",
+          "Force Directed": "बल संचालित",
+          "Force Atlas": "फोर्स एटलस"
+        }
+      },
+      "fullScreenControl": {
+        "fullScreen": "पूर्ण स्क्रीन",
+        "windowed": "विंडो मोड"
+      },
+      "legendControl": {
+        "toggleLegend": "किंवदंती टॉगल करें"
+      }
+    },
+    "statusIndicator": {
+      "connected": "कनेक्टेड",
+      "disconnected": "डिस्कनेक्टेड"
+    },
+    "statusCard": {
+      "unavailable": "स्थिति जानकारी उपलब्ध नहीं है",
+      "serverInfo": "सर्वर जानकारी",
+      "workingDirectory": "वर्किंग निर्देशिका",
+      "inputDirectory": "इनपुट निर्देशिका",
+      "maxParallelInsert": "सामान्य दस्तावेज़ प्रोसेसिंग",
+      "summarySettings": "सारांश सेटिंग्स",
+      "llmConfig": "LLM विन्यास",
+      "llmBinding": "LLM बाइंडिंग",
+      "llmBindingHost": "LLM अंतर्गत",
+      "llmModel": "LLM मॉडल",
+      "embeddingConfig": "एंबेडिंग विन्यास",
+      "embeddingBinding": "एंबेडिंग बाइंडिंग",
+      "embeddingBindingHost": "एंबेडिंग अंतर्गत",
+      "embeddingModel": "एंबेडिंग मॉडल",
+      "storageConfig": "स्टोरेज विन्यास",
+      "kvStorage": "KV स्टोरेज",
+      "docStatusStorage": "दस्तावेज़ स्थिति स्टोरेज",
+      "graphStorage": "ग्राफ़ स्टोरेज",
+      "vectorStorage": "वेक्टर स्टोरेज",
+      "workspace": "वर्कस्पेस",
+      "maxGraphNodes": "अधिकतम ग्राफ़ नोड्स",
+      "rerankerConfig": "रिरेंकर विन्यास",
+      "rerankerBindingHost": "रिरेंकर अंतर्गत",
+      "rerankerModel": "रिरेंकर मॉडल",
+      "lockStatus": "लॉक स्थिति",
+      "threshold": "थ्रेशोल्ड"
+    },
+    "propertiesView": {
+      "editProperty": "संपादित करें {{property}}",
+      "editPropertyDescription": "नीचे टेक्स्ट क्षेत्र में प्रॉपर्टी मान को संपादित करें।",
+      "errors": {
+        "duplicateName": "नोड नाम पहले से मौजूद है",
+        "updateFailed": "नोड को अपडेट करने में विफल",
+        "tryAgainLater": "कृपया बाद में पुनः प्रयास करें",
+        "updateSuccessButMergeFailed": "प्रॉपर्टीज़ अपडेट की गई, लेकिन मर्ज विफल: {{error}}",
+        "mergeFailed": "मर्ज विफल: {{error}}"
+      },
+      "success": {
+        "propertyUpdated": "प्रॉपर्टी सफलतापूर्वक अपडेट की गई"
+      }
+    }
+  }
+}
