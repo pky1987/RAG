@@ -2,10 +2,10 @@
 
 **RAG** is a lightweight, fast Retrieval-Augmented Generation (RAG) toolkit and API with a bundled web UI. It provides components to ingest documents, build vector indices and knowledge graphs, and query them using an LLM-backed pipeline.
 
-[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/pky1987/RAG)
+[![Version](https://img.shields.io/badge/Version-0.1.0-blue.svg)](https://github.com/pky1987/RAG)
 [![API Version](https://img.shields.io/badge/API-0260-green.svg)](https://github.com/pky1987/RAG)
-[![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-Check%20with%20author-red.svg)](https://github.com/pky1987/RAG)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-red.svg)]([https://github.com/pky1987/RAG](https://github.com/pky1987/RAG/blob/main/LICENSE))
 
 ## ✨ Features
 
