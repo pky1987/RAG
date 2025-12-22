@@ -5,7 +5,7 @@
 [![Version](https://img.shields.io/badge/Version-0.1.0-blue.svg)](https://github.com/pky1987/RAG)
 [![API Version](https://img.shields.io/badge/API-0260-green.svg)](https://github.com/pky1987/RAG)
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-red.svg)]([https://github.com/pky1987/RAG](https://github.com/pky1987/RAG/blob/main/LICENSE))
+[![License](https://img.shields.io/badge/License-MIT-red.svg)](https://github.com/pky1987/RAG/blob/main/LICENSE)
 
 ## ✨ Features
 
